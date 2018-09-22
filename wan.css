@@ -1,0 +1,2429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1920px;
+    height: 1200px;
+    background-image: url(../img/1.jpg);
+    background-repeat:no-repeat;
+}
+b{
+    padding: 2px 0;
+    /*color: rgba(255,255,255,0.56)*/
+}
+.juju{
+    width: 750px;
+    display: flex;
+    justify-content: center;
+}
+.fxy{
+    opacity:0.8;
+}
+.fangkuai{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 0, 0, 0.3);
+    border:1px solid rgba(255, 195, 175, 0.2);
+    box-shadow: 5px 5px 1px  rgba(255, 0, 0, 0.4);
+}
+.flex{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.fxy1{
+    width: 100%;
+    height: 100%;
+    background: url(../images/1.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy2{
+    width: 100%;
+    height: 100%;
+    background: url(../images/2.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy3{
+    width: 100%;
+    height: 100%;
+    background: url(../images/3.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy4{
+    width: 100%;
+    height: 100%;
+    background: url(../images/4.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy5{
+    width: 100%;
+    height: 100%;
+    background: url(../images/5.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy6{
+    width: 100%;
+    height: 100%;
+    background: url(../images/6.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy7{
+    width: 100%;
+    height: 100%;
+    background: url(../images/7.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy8{
+    width: 100%;
+    height: 100%;
+    background: url(../images/8.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy9{
+    width: 100%;
+    height: 100%;
+    background: url(../images/9.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy10{
+    width: 100%;
+    height: 100%;
+    background: url(../images/10.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy11{
+    width: 100%;
+    height: 100%;
+    background: url(../images/11.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy12{
+    width: 100%;
+    height: 100%;
+    background: url(../images/12.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy13{
+    width: 100%;
+    height: 100%;
+    background: url(../images/13.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy14{
+    width: 100%;
+    height: 100%;
+    padding-left: 14rem;
+    background: url(../images/14.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy15{
+    width: 100%;
+    height: 100%;
+    background: url(../images/15.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy16{
+    width: 100%;
+    height: 100%;
+    background: url(../images/16.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12rem;
+    font-size: 1.3rem;
+}
+.fxy17{
+    width: 100%;
+    height: 100%;
+    background: url(../images/17.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy18{
+    width: 100%;
+    height: 100%;
+    background: url(../images/18.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy19{
+    width: 100%;
+    height: 100%;
+    background: url(../images/19.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy20{
+    width: 100%;
+    height: 100%;
+    padding-left: 14rem;
+    background: url(../images/20.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy21{
+    width: 100%;
+    height: 100%;
+    background: url(../images/21.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy22{
+    width: 100%;
+    height: 100%;
+    background: url(../images/22.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy23{
+    width: 100%;
+    height: 100%;
+    background: url(../images/23.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy24{
+    width: 100%;
+    height: 100%;
+    background: url(../images/24.jpg) no-repeat;
+    background-size: cover;
+    padding-left: 15rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy25{
+    width: 100%;
+    height: 100%;
+    background: url(../images/25.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy26{
+    width: 100%;
+    height: 100%;
+    background: url(../images/26.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy27{
+    width: 100%;
+    height: 100%;
+    background: url(../images/27.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy28{
+    width: 100%;
+    height: 100%;
+    background: url(../images/28.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy29{
+    width: 100%;
+    height: 100%;
+    background: url(../images/29.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy30{
+    width: 100%;
+    height: 100%;
+    background: url(../images/30.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy31{
+    width: 100%;
+    height: 100%;
+    background: url(../images/31.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy32{
+    width: 100%;
+    height: 100%;
+    background: url(../images/32.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy33{
+    width: 100%;
+    height: 100%;
+    background: url(../images/33.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy34{
+    width: 100%;
+    height: 100%;
+    background: url(../images/34.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy35{
+    width: 100%;
+    height: 100%;
+    background: url(../images/35.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy36{
+    width: 100%;
+    height: 100%;
+    background: url(../images/36.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy37{
+    width: 100%;
+    height: 100%;
+    background: url(../images/37.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy38{
+    width: 100%;
+    height: 100%;
+    background: url(../images/38.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy39{
+    width: 100%;
+    height: 100%;
+    background: url(../images/39.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy40{
+    width: 100%;
+    height: 100%;
+    background: url(../images/40.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy41{
+    width: 100%;
+    height: 100%;
+    background: url(../images/41.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy42{
+    width: 100%;
+    height: 100%;
+    background: url(../images/42.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy43{
+    width: 100%;
+    height: 100%;
+    background: url(../images/43.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy44{
+    width: 100%;
+    height: 100%;
+    background: url(../images/44.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy45{
+    width: 100%;
+    height: 100%;
+    background: url(../images/45.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy46{
+    width: 100%;
+    height: 100%;
+    background: url(../images/46.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy47{
+    width: 100%;
+    height: 100%;
+    background: url(../images/47.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy48{
+    width: 100%;
+    height: 100%;
+    background: url(../images/48.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy49{
+    width: 100%;
+    height: 100%;
+    background: url(../images/49.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy50{
+    width: 100%;
+    height: 100%;
+    background: url(../images/50.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy51{
+    width: 100%;
+    height: 100%;
+    background: url(../images/51.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy52{
+    width: 100%;
+    height: 100%;
+    background: url(../images/52.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy53{
+    width: 100%;
+    height: 100%;
+    background: url(../images/53.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy54{
+    width: 100%;
+    height: 100%;
+    background: url(../images/54.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy55{
+    width: 100%;
+    height: 100%;
+    background: url(../images/55.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy56{
+    width: 100%;
+    height: 100%;
+    background: url(../images/56.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy57{
+    width: 100%;
+    height: 100%;
+    background: url(../images/57.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy58{
+    width: 100%;
+    height: 100%;
+    background: url(../images/58.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy59{
+    width: 100%;
+    height: 100%;
+    background: url(../images/59.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy60{
+    width: 100%;
+    height: 100%;
+    background: url(../images/60.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy61{
+    width: 100%;
+    height: 100%;
+    background: url(../images/61.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy62{
+    width: 100%;
+    height: 100%;
+    background: url(../images/62.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy63{
+    width: 100%;
+    height: 100%;
+    background: url(../images/63.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy64{
+    width: 100%;
+    height: 100%;
+    background: url(../images/64.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy65{
+    width: 100%;
+    height: 100%;
+    background: url(../images/65.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy66{
+    width: 100%;
+    height: 100%;
+    background: url(../images/66.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy67{
+    width: 100%;
+    height: 100%;
+    background: url(../images/67.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy68{
+    width: 100%;
+    height: 100%;
+    background: url(../images/68.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy69{
+    width: 100%;
+    height: 100%;
+    background: url(../images/69.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy70{
+    width: 100%;
+    height: 100%;
+    background: url(../images/70.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    padding-left: 14rem;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy71{
+    width: 100%;
+    height: 100%;
+    background: url(../images/71.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy72{
+    width: 100%;
+    height: 100%;
+    background: url(../images/72.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy73{
+    width: 100%;
+    height: 100%;
+    background: url(../images/73.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy74{
+    width: 100%;
+    height: 100%;
+    background: url(../images/74.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy75{
+    width: 100%;
+    height: 100%;
+    background: url(../images/75.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy76{
+    width: 100%;
+    height: 100%;
+    background: url(../images/76.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy77{
+    width: 100%;
+    height: 100%;
+    background: url(../images/77.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy78{
+    width: 100%;
+    height: 100%;
+    background: url(../images/78.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy79{
+    width: 100%;
+    height: 100%;
+    background: url(../images/79.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy80{
+    width: 100%;
+    height: 100%;
+    background: url(../images/80.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy81{
+    width: 100%;
+    height: 100%;
+    background: url(../images/81.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy82{
+    width: 100%;
+    height: 100%;
+    background: url(../images/82.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy83{
+    width: 100%;
+    height: 100%;
+    background: url(../images/83.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy84{
+    width: 100%;
+    height: 100%;
+    background: url(../images/84.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy85{
+    width: 100%;
+    height: 100%;
+    background: url(../images/85.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy86{
+    width: 100%;
+    height: 100%;
+    background: url(../images/86.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy87{
+    width: 100%;
+    height: 100%;
+    background: url(../images/87.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy88{
+    width: 100%;
+    height: 100%;
+    background: url(../images/88.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy89{
+    width: 100%;
+    height: 100%;
+    background: url(../images/89.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy90{
+    width: 100%;
+    height: 100%;
+    background: url(../images/90.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy91{
+    width: 100%;
+    height: 100%;
+    background: url(../images/91.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy92{
+    width: 100%;
+    height: 100%;
+    background: url(../images/92.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy93{
+    width: 100%;
+    height: 100%;
+    background: url(../images/93.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy94{
+    width: 100%;
+    height: 100%;
+    background: url(../images/94.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy95{
+    width: 100%;
+    height: 100%;
+    background: url(../images/95.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy96{
+    width: 100%;
+    height: 100%;
+    background: url(../images/96.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy97{
+    width: 100%;
+    height: 100%;
+    background: url(../images/97.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy98{
+    width: 100%;
+    height: 100%;
+    background: url(../images/98.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy99{
+    width: 100%;
+    height: 100%;
+    background: url(../images/99.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy100{
+    width: 100%;
+    height: 100%;
+    background: url(../images/100.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy101{
+    width: 100%;
+    height: 100%;
+    background: url(../images/101.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy102{
+    width: 100%;
+    height: 100%;
+    background: url(../images/102.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy103{
+    width: 100%;
+    height: 100%;
+    background: url(../images/103.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy104{
+    width: 100%;
+    height: 100%;
+    background: url(../images/104.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy105{
+    width: 100%;
+    height: 100%;
+    background: url(../images/105.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy106{
+    width: 100%;
+    height: 100%;
+    background: url(../images/106.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy107{
+    width: 100%;
+    height: 100%;
+    background: url(../images/107.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy108{
+    width: 100%;
+    height: 100%;
+    background: url(../images/108.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy109{
+    width: 100%;
+    height: 100%;
+    background: url(../images/109.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy110{
+    width: 100%;
+    height: 100%;
+    background: url(../images/110.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy111{
+    width: 100%;
+    height: 100%;
+    background: url(../images/111.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy112{
+    width: 100%;
+    height: 100%;
+    background: url(../images/112.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy113{
+    width: 100%;
+    height: 100%;
+    background: url(../images/113.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy114{
+    width: 100%;
+    height: 100%;
+    background: url(../images/114.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy115{
+    width: 100%;
+    height: 100%;
+    background: url(../images/115.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy116{
+    width: 100%;
+    height: 100%;
+    background: url(../images/116.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy117{
+    width: 100%;
+    height: 100%;
+    background: url(../images/117.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy118{
+    width: 100%;
+    height: 100%;
+    background: url(../images/118.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy119{
+    width: 100%;
+    height: 100%;
+    background: url(../images/119.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy120{
+    width: 100%;
+    height: 100%;
+    background: url(../images/120.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy121{
+    width: 100%;
+    height: 100%;
+    background: url(../images/121.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy122{
+    width: 100%;
+    height: 100%;
+    background: url(../images/122.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy123{
+    width: 100%;
+    height: 100%;
+    background: url(../images/123.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy124{
+    width: 100%;
+    height: 100%;
+    background: url(../images/124.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy125{
+    width: 100%;
+    height: 100%;
+    background: url(../images/125.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy126{
+    width: 100%;
+    height: 100%;
+    background: url(../images/126.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy127{
+    width: 100%;
+    height: 100%;
+    background: url(../images/127.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy128{
+    width: 100%;
+    height: 100%;
+    background: url(../images/128.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy129{
+    width: 100%;
+    height: 100%;
+    background: url(../images/129.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy130{
+    width: 100%;
+    height: 100%;
+    background: url(../images/130.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy131{
+    width: 100%;
+    height: 100%;
+    background: url(../images/131.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy132{
+    width: 100%;
+    height: 100%;
+    background: url(../images/132.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy133{
+    width: 100%;
+    height: 100%;
+    background: url(../images/133.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy134{
+    width: 100%;
+    height: 100%;
+    background: url(../images/134.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy135{
+    width: 100%;
+    height: 100%;
+    background: url(../images/135.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy136{
+    width: 100%;
+    height: 100%;
+    background: url(../images/136.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy137{
+    width: 100%;
+    height: 100%;
+    background: url(../images/137.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy138{
+    width: 100%;
+    height: 100%;
+    background: url(../images/138.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy139{
+    width: 100%;
+    height: 100%;
+    background: url(../images/139.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy140{
+    width: 100%;
+    height: 100%;
+    background: url(../images/140.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy141{
+    width: 100%;
+    height: 100%;
+    background: url(../images/141.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy142{
+    width: 100%;
+    height: 100%;
+    background: url(../images/142.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy143{
+    width: 100%;
+    height: 100%;
+    background: url(../images/143.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy144{
+    width: 100%;
+    height: 100%;
+    background: url(../images/144.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy145{
+    width: 100%;
+    height: 100%;
+    background: url(../images/145.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy146{
+    width: 100%;
+    height: 100%;
+    background: url(../images/146.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy147{
+    width: 100%;
+    height: 100%;
+    background: url(../images/147.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy148{
+    width: 100%;
+    height: 100%;
+    background: url(../images/148.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy149{
+    width: 100%;
+    height: 100%;
+    background: url(../images/149.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy150{
+    width: 100%;
+    height: 100%;
+    background: url(../images/150.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy151{
+    width: 100%;
+    height: 100%;
+    background: url(../images/151.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy152{
+    width: 100%;
+    height: 100%;
+    background: url(../images/152.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy153{
+    width: 100%;
+    height: 100%;
+    background: url(../images/153.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy154{
+    width: 100%;
+    height: 100%;
+    background: url(../images/154.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy155{
+    width: 100%;
+    height: 100%;
+    background: url(../images/155.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy156{
+    width: 100%;
+    height: 100%;
+    background: url(../images/156.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy157{
+    width: 100%;
+    height: 100%;
+    background: url(../images/157.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy158{
+    width: 100%;
+    height: 100%;
+    background: url(../images/158.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy159{
+    width: 100%;
+    height: 100%;
+    background: url(../images/159.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy160{
+    width: 100%;
+    height: 100%;
+    background: url(../images/160.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy161{
+    width: 100%;
+    height: 100%;
+    background: url(../images/161.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy162{
+    width: 100%;
+    height: 100%;
+    background: url(../images/162.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy163{
+    width: 100%;
+    height: 100%;
+    background: url(../images/163.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy164{
+    width: 100%;
+    height: 100%;
+    background: url(../images/164.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy165{
+    width: 100%;
+    height: 100%;
+    background: url(../images/165.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy166{
+    width: 100%;
+    height: 100%;
+    background: url(../images/166.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy167{
+    width: 100%;
+    height: 100%;
+    background: url(../images/167.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy168{
+    width: 100%;
+    height: 100%;
+    background: url(../images/168.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy169{
+    width: 100%;
+    height: 100%;
+    background: url(../images/169.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy170{
+    width: 100%;
+    height: 100%;
+    background: url(../images/170.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy171{
+    width: 100%;
+    height: 100%;
+    background: url(../images/171.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy172{
+    width: 100%;
+    height: 100%;
+    background: url(../images/172.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy173{
+    width: 100%;
+    height: 100%;
+    background: url(../images/173.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy174{
+    width: 100%;
+    height: 100%;
+    background: url(../images/174.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy175{
+    width: 100%;
+    height: 100%;
+    background: url(../images/175.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy176{
+    width: 100%;
+    height: 100%;
+    background: url(../images/176.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy177{
+    width: 100%;
+    height: 100%;
+    background: url(../images/177.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy178{
+    width: 100%;
+    height: 100%;
+    background: url(../images/178.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy179{
+    width: 100%;
+    height: 100%;
+    background: url(../images/179.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy180{
+    width: 100%;
+    height: 100%;
+    background: url(../images/180.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy181{
+    width: 100%;
+    height: 100%;
+    background: url(../images/181.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy182{
+    width: 100%;
+    height: 100%;
+    background: url(../images/182.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy183{
+    width: 100%;
+    height: 100%;
+    background: url(../images/183.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy184{
+    width: 100%;
+    height: 100%;
+    background: url(../images/184.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy185{
+    width: 100%;
+    height: 100%;
+    background: url(../images/185.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy186{
+    width: 100%;
+    height: 100%;
+    background: url(../images/186.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy187{
+    width: 100%;
+    height: 100%;
+    background: url(../images/187.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy188{
+    width: 100%;
+    height: 100%;
+    background: url(../images/188.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy189{
+    width: 100%;
+    height: 100%;
+    background: url(../images/189.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy190{
+    width: 100%;
+    height: 100%;
+    background: url(../images/190.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy191{
+    width: 100%;
+    height: 100%;
+    background: url(../images/191.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy192{
+    width: 100%;
+    height: 100%;
+    background: url(../images/192.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy193{
+    width: 100%;
+    height: 100%;
+    background: url(../images/193.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy194{
+    width: 100%;
+    height: 100%;
+    background: url(../images/194.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy195{
+    width: 100%;
+    height: 100%;
+    background: url(../images/195.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy196{
+    width: 100%;
+    height: 100%;
+    background: url(../images/196.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy197{
+    width: 100%;
+    height: 100%;
+    background: url(../images/197.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy198{
+    width: 100%;
+    height: 100%;
+    background: url(../images/198.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.fxy199{
+    width: 100%;
+    height: 100%;
+    background: url(../images/199.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+
+
